@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistem Perekodan Kehadiran Aktiviti Kelab Bola Tampar</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            background-color: #ff6600;
+            color: #000000;
+            padding: 10px;
+            text-align: center;
+        }
+        .form-container {
+            padding: 20px;
+            border: 1px solid #cccccc;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+        .form-input {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #cccccc;
+            border-radius: 5px;
+        }
+        .submit-button {
+            background-color: #0074d9;
+            color: #ffffff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Sistem Perekodan Kehadiran Aktiviti Kelab Bola Tampar</h1>
+        <div class="form-container">
+            <form action="https://example.com/sign-up-guru-penasihat" method="post">
+                <label for="namaGuruPenasihat">Nama Guru Penasihat:</label>
+                <input type="text" id="namaGuruPenasihat" name="namaGuruPenasihat" class="form-input" required>
+                <label for="noKPGuruPenasihat">No. KP Guru Penasihat:</label>
+                <input type="text" id="noKPGuruPenasihat" name="noKPGuruPenasihat" class="form-input" required>
+                <label for="nomborTelefon">Nombor Telefon:</label>
+                <input type="tel" id="nomborTelefon" name="nomborTelefon" class="form-input" required>
+                <button type="submit" class="submit-button">SIGN UP</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
